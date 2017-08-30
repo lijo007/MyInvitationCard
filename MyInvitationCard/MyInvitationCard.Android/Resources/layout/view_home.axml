@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Enter the faranheit value:"
+        android:layout_width="match_parent"
+        android:textSize="21dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Celcius Value:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="Result"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/result" />
+    </LinearLayout>
+</LinearLayout>
